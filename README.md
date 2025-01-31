@@ -9,6 +9,7 @@ Authored by: k3nnee
 - [Installation](#installation)
 - [Issues and bugs](#issues-and-bugs)
 - [Contact me](#contact-me)
+- [Screenshots](#screenshots)
 
 ## Introduction
 I created this template to help busy computer science students 
@@ -18,6 +19,9 @@ importance of having an easily customizable and visually appealing
 portfolio. This template is designed to simplify the process of 
 building a portfolio, allowing you to focus on what truly matters 
 – your projects and achievements.
+
+This is just a basic template to make the process easier, add colors, change formats, make your website
+pop!
 
 ## Installation
 1. Fork this repository
@@ -30,3 +34,6 @@ repository or create a PR:)
 
 ## Contact me
 If you want to contact me, you can reach out to me via Linkedin from the [top](#cv-website-template)!
+
+## Screenshots
+![img.png](webfront/assets/readme/img.png)
