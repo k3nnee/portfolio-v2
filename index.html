@@ -31,7 +31,7 @@
                         <div class="d-none d-sm-flex">
                             <ul class="navbar-nav">
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Home</a>
+                                    <a class="nav-link" href="https://k3nnee.github.io/portfolio-v2/">Home</a>
                                 </li>
                                 <li class="nav-item">
                                     <button class="nav-link" onclick="scrollToElement('project')">Projects</button>
@@ -428,11 +428,11 @@
 
                 const workItems = document.querySelectorAll(".work-item-fade-out");
 
-                for (const section of workItems) {
-                    if (scrollPosition > section.offsetTop) {
+                if (workItems.length > 0 && workItems[0].offsetTop < scrollPosition) {
+                    for (const section of workItems) {
                         section.classList.add('work-item-fade-in');
+                        await sleep(400)
                     }
-                    await sleep(400)
                 }
             }
             document.addEventListener('scroll', function() {
