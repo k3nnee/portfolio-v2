@@ -3,7 +3,7 @@
 <html lang="en">
     <!-- Start of head section -->
     <head>
-        <title> [User]'s Website </title>
+        <title> Kenny Tang's Website </title>
         <meta charset="utf-8" />
         <!-- You can generate a favicon @https://favicon.io/ -->
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
@@ -16,16 +16,15 @@
     </head>
     <!-- Start of body section -->
     <body class="overflow-x-hidden" onload="loadResources()">
-        <button class="border-1 border position-fixed bottom-0 end-0 bi bi-arrow-up belt-icon me-2 mb-2 up-button-fade-out" onclick="scrollToElement('nav')"></button>
-        <div class="bg-body-secondary landing h-100 d-flex row centered">
+        <button title="Back to the top" class="border-1 border position-fixed bottom-0 end-0 bi bi-arrow-up belt-icon me-2 mb-2 up-button-fade-out" onclick="scrollToElement('nav')"></button>
+        <div class="hero-background-img landing h-100 d-flex row centered">
             <!-- Navbar -->
             <nav class="navbar navbar-expand-sm nav-size-sm" id="nav">
                 <div class="d-flex justify-content-between container-fluid mx-2">
                     <div class="d-flex align-items-center">
-                        <a class="navbar-brand" href="#">
+                        <a class="navbar-brand" href="index.html">
                             <img src="webfront/assets/images/favicon.ico" alt="placeholder logo" height="30px" width="30px">
                         </a>
-                        [First name] [Last name]
                     </div>
 
                     <div>
@@ -50,23 +49,33 @@
             </nav>
 
             <!-- Start of the hero section -->
-            <div class="row centered h-100 w-auto px-2 pb-5 mt-4 mt-lg-0 bg-secondary-lighter p-0">
-                <div class="col-12 col-md-5 col-lg-4 p-0 centered align-items-center">
-                    <img class="img-circle" src="webfront/assets/images/profilePlaceholder.jpg" alt="profile image" height="250px" width="250px">
+            <div class="position-relative row centered h-100 w-auto px-2 pb-5 mt-4 mt-lg-0 p-0">
+                <div class="col-12 col-md-5 col-lg-4 p-0 centered align-items-center position-relative">
+                    <div class="bg-secondary-lighter img-circle border-0">
+                        <img class="img-circle" src="webfront/assets/images/avatar_2.png" alt="profile image" height="300px" width="300px">
+                    </div>
                 </div>
                 <div class="col-12 col-md-5 col-lg-4 mt-5 centered align-items-center">
                     <div class="w-100">
                         <h2>
-                            Hello! My name is [First_name] [Last_name]
+                            Hello! My name is Kenny Tang
                         </h2>
-                        <p class="d-flex hero-text">
-                            Being a computer science student at _ University is an exciting journey of discovery and innovation. The vibrant campus, supportive
-                            faculty, and cutting-edge resources create an inspiring environment. Balancing rigorous coursework with collaborative projects prepares
-                            us for the dynamic tech industry, fostering creativity and problem-solving skills. It's truly transformative.
+                        <h6> About me </h6>
+                        <p class="hero-text">
+                            I'm a Computer Science major at the University at Buffalo, graduating in May 2026. I'm passionate about building
+                            interesting and cool projects that further expand my skill set. I enjoy not only learning new technologies and languages,
+                            but also improving my overall programming abilities by writing cleaner code, focusing on security, and enhancing error
+                            handling.
+                        </p>
+                        <p>
+                            Outside of school I enjoy going to the gym and cooking!
+                        </p>
+                        <p>
+                            I'm excited to have you explore my website. You can find the template on my <a href="https://github.com/k3nnee/cv-template-1" target="_blank">GitHub</a>!
                         </p>
                         <hr>
                         <div class="d-flex pb-3">
-                            <a href="https://www.linkedin.com" target="_blank" class="rounded-2 btn-style me-1"> Linkedin </a>
+                            <a href="https://www.linkedin.com/in/kennytang04" target="_blank" class="rounded-2 btn-style me-1"> Linkedin </a>
                             <a href="webfront/assets/resume.pdf" target="_blank" class="rounded-2 btn-style"> Resume </a>
                         </div>
                     </div>
@@ -77,27 +86,55 @@
         <!-- Project section -->
         <div class="m-5 centered row" id="project">
             <h2> Projects </h2>
-            <p class="text-secondary"> This section includes past projects </p>
+            <p class="text-secondary mb-0">
+                This following section is a list of my past project that I am most proud of. The following belt are a list of
+                technologies and languages that I am familiar with.
+            </p>
+            <div class="marquee-container gap-5 my-2">
+                <div class="marquee gap-5">
+                    <img height="50px" width="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python">
+                    <img height="50px" width="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="JavaScript">
+                    <img height="50px" width="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" alt="TypeScript">
+                    <img height="50px" width="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg" alt="Java">
+                    <img height="50px" width="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="HTML5">
+                    <img height="50px" width="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" alt="Docker">
+                    <img height="50px" width="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="React">
+                    <img height="50px" width="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" alt="Express">
+                    <img height="50px" width="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" alt="MongoDB">
+                    <img height="50px" width="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap">
+                    <img height="50px" width="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original.svg" alt="FastAPI">
+                    <img height="50px" width="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/oauth/oauth-original.svg" alt="OAuth">
+                    <img height="50px" width="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt="GitHub">
+                    <img height="50px" width="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" alt="TailwindCSS">
+
+                </div>
+            </div>
             <!-- Row start -->
             <div class="row px-0">
                 <!-- Component start -->
                 <!-- Images are default set to 16:9 aspect ratio -->
                 <div class="col-12 col-lg-6 fade-out">
                     <div class="position-relative">
-                        <a href="#" target="_blank">
-                            <img class="project-image" src="webfront/assets/images/placeholder.jpg" alt="project image 1">
+                        <a href="https://github.com/k3nnee/down-the-rabbit-hole" target="_blank">
+                            <img class="project-image" src="webfront/assets/images/workitems/13.jpg" alt="project image 1">
                             <div class="thumb position-absolute top-0 centered align-items-center project-image">
                                 <span class="thumb-style rounded-2"> View </span>
                             </div>
                         </a>
                         <div class="mt-1">
                             <h5>
-                                Title 1
+                                Down the Rabbithole
                             </h5>
+                            <p class="project-item-subtitle"> Technologies: ReactJS, MongoDB, ExpressJS, Auth0, OpenAI, Bootstrap, PineconeDB</p>
                             <p class="text-secondary">
-                                Write a description that best describes your project. You should
-                                discuss the technologies you used, what the project does, and what
-                                you've learned
+                                This project allows users to upload horror stories, leveraging RAG using
+                                prominent horror movie scripts to automatically categorize the horror factor
+                                of the uploaded stories. The uploaded stories will also
+                                receive feedback to make the stories better.
+                            </p>
+                            <p class="text-secondary">
+                                The project features authentication where users can track their uploaded stories via a user
+                                panel.
                             </p>
                         </div>
                     </div>
@@ -105,60 +142,110 @@
                 <!-- Component end -->
                 <div class="col-12 col-lg-6  fade-out">
                     <div class="position-relative">
-                        <a href="#" target="_blank">
-                            <img class="project-image" src="webfront/assets/images/placeholder.jpg" alt="project image 1">
+                        <a href="https://github.com/k3nnee/ch-eng-translation-extension" target="_blank">
+                            <img class="project-image" src="webfront/assets/images/workitems/11.jpg" alt="project image 1">
                             <div class="thumb position-absolute top-0 centered align-items-center project-image">
                                 <span class="thumb-style rounded-2"> View </span>
                             </div>
                         </a>
                         <div class="mt-1">
                             <h5>
-                                Title 2
+                                Google Translation Extension
                             </h5>
+                            <p class="project-item-subtitle"> Technologies: Svelte, OpenAI, Bootstrap</p>
                             <p class="text-secondary">
-                                Write a description that best describes your project. You should
-                                discuss the technologies you used, what the project does, and what
-                                you've learned
+                                This project is a Google extension where users can translate English to Chinese and vice versa.
+                            </p>
+                            <p class="text-secondary">
+                                The project features a side panel where users can translate the word, or, users can highlight the
+                                target text and the text will be translated inline.
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-lg-6 fade-out">
                     <div class="position-relative">
-                        <a href="#" target="_blank">
-                            <img class="project-image" src="webfront/assets/images/placeholder.jpg" alt="project image 1">
+                        <a href="https://github.com/k3nnee/exergi-demo-project" target="_blank">
+                            <img class="project-image" src="webfront/assets/images/workitems/12.png" alt="project image 1">
                             <div class="thumb position-absolute top-0 centered align-items-center project-image">
                                 <span class="thumb-style rounded-2"> View </span>
                             </div>
                         </a>
                         <div class="mt-1">
                             <h5>
-                                Title 3
+                                Solar Panel Assistant
                             </h5>
+                            <p class="project-item-subtitle"> Technologies: ReactJS, Bootstrap, OpenAI, ExpressJS</p>
                             <p class="text-secondary">
-                                Write a description that best describes your project. You should
-                                discuss the technologies you used, what the project does, and what
-                                you've learned
+                                The project is an ai assistant that helps users pick out which solar panel is best for their bugdet.
+                                Also providing help with calculating payments.
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-lg-6 fade-out">
                     <div class="position-relative">
-                        <a href="#" target="_blank">
-                            <img class="project-image" src="webfront/assets/images/placeholder.jpg" alt="project image 1">
+                        <a href="https://github.com/k3nnee/flashcard-buddies" target="_blank">
+                            <img class="project-image" src="webfront/assets/images/workitems/09.png" alt="project image 1">
                             <div class="thumb position-absolute top-0 centered align-items-center project-image">
                                 <span class="thumb-style rounded-2"> View </span>
                             </div>
                         </a>
                         <div class="mt-1">
                             <h5>
-                                Title 4
+                                Flashcard Buddies
                             </h5>
+                            <p class="project-item-subtitle"> Technologies: ReactJS, NextJS, Material UI, Firebase, Stripe, OpenAI, ClerkJS, ExpressJS</p>
                             <p class="text-secondary">
-                                Write a description that best describes your project. You should
-                                discuss the technologies you used, what the project does, and what
-                                you've learned
+                                This project helps users study by creating study flashcards based off prompts that the user provides.
+                                The user can create multiple flashcards sets which gets stored in a cloud database.
+                            </p>
+                            <p class="text-secondary">
+                                The project features CRUD operations, payment system using Stripe, and authentication using ClerkJS.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 fade-out">
+                    <div class="position-relative">
+                        <a href="https://github.com/k3nnee/library-of-games" target="_blank">
+                            <img class="project-image" src="webfront/assets/images/workitems/03.jpg" alt="project image 1">
+                            <div class="thumb position-absolute top-0 centered align-items-center project-image">
+                                <span class="thumb-style rounded-2"> View </span>
+                            </div>
+                        </a>
+                        <div class="mt-1">
+                            <h5>
+                                Game Library
+                            </h5>
+                            <p class="project-item-subtitle"> Technologies: ReactJS, RawgAPI, Bootstrap</p>
+                            <p class="text-secondary">
+                                This project allows users to search up games and add them to a library. Each added game is a card
+                                that displays information regarding the game.
+                            </p>
+                            <p class="text-secondary">
+                                The project features a fully functional search bar. Fun fact, this was my first ReactJS project that introduced
+                                me to webdev.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 fade-out">
+                    <div class="position-relative">
+                        <a href="https://replit.com/@KennyTang4/Defsky" target="_blank">
+                            <img class="project-image" src="webfront/assets/images/workitems/06.jpg" alt="project image 1">
+                            <div class="thumb position-absolute top-0 centered align-items-center project-image">
+                                <span class="thumb-style rounded-2"> View </span>
+                            </div>
+                        </a>
+                        <div class="mt-1">
+                            <h5>
+                                Defsky
+                            </h5>
+                            <p class="project-item-subtitle"> Technologies: Javascript</p>
+                            <p class="text-secondary">
+                                This project is a 2D game where a player has to defeat a boss, players can collect ammo
+                                that replenishes their weapon and heart canisters that replenishes their health.
                             </p>
                         </div>
                     </div>
@@ -176,19 +263,19 @@
                     <div class="col-12 col-md-4 work-item-fade-out">
                         <div class="card h-100">
                             <div class="card-body">
-                                <h5 class="m-0 card-title"> Job 1 </h5>
-                                <p class="m-0 text-secondary"> Company </p>
-                                <p class="m-0 text-secondary subtitle"> 1/31/2025 - Present</p>
+                                <h5 class="m-0 card-title"> Algorithms UTA</h5>
+                                <p class="m-0 text-secondary"> University at Buffalo </p>
+                                <p class="m-0 text-secondary subtitle"> Janurary 2025 - Present</p>
 
                                 <ul class="py-2 ps-4">
                                     <li>
-                                        Write what you did during your position
+                                        Held office hours twice a week helping students
                                     </li>
                                     <li>
-                                        Write what you did during your position
+                                        Answered any questions on Piazza, a forum for students to upload questions
                                     </li>
                                     <li>
-                                        Write what you did during your position
+                                        Graded tests and homeworks
                                     </li>
                                 </ul>
                             </div>
@@ -198,47 +285,24 @@
                     <div class="col-12 col-md-4 work-item-fade-out">
                         <div class="card h-100">
                             <div class="card-body">
-                                <h5 class="m-0 card-title"> Job 2 </h5>
-                                <p class="m-0 text-secondary"> Company </p>
-                                <p class="m-0 text-secondary subtitle"> 1/31/2025 - Present</p>
-
-                                <div class="py-2">
-                                    You can also write a couple sentence paragraph describing your
-                                    responsibilities and accomplishments during the role
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-4 work-item-fade-out">
-                        <div class="card h-100">
-                            <div class="card-body">
-                                <h5 class="m-0 card-title"> Job 3 </h5>
-                                <p class="m-0 text-secondary"> Company </p>
-                                <p class="m-0 text-secondary subtitle"> 1/31/2025 - Present</p>
-
-                                <div class="py-2">
-                                    You can also write a couple sentence paragraph describing your
-                                    responsibilities and accomplishments during the role
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-4 work-item-fade-out">
-                        <div class="card h-100">
-                            <div class="card-body">
-                                <h5 class="m-0 card-title"> Job 4 </h5>
-                                <p class="m-0 text-secondary"> Company </p>
-                                <p class="m-0 text-secondary subtitle"> 1/31/2025 - Present</p>
-
+                                <h5 class="m-0 card-title"> Software Engineer Intern </h5>
+                                <p class="m-0 text-secondary"> AI Republic </p>
+                                <p class="m-0 text-secondary subtitle"> November 2024 - Present</p>
+                                <p class="project-item-subtitle mb-0"> Technologies: Svelte, FastAPI, JWT, Postgres, SQLAlchemy, TailwindCSS, Bootstrap</p>
                                 <ul class="py-2 ps-4">
                                     <li>
-                                        Write what you did during your position
+                                        Helped designed and implemented a backend API for the company's website so that users can upload
+                                        requests to the company. The website also featured a forum where users can upvote, and comment on feature
+                                        requests.
                                     </li>
                                     <li>
-                                        Write what you did during your position
+                                        Designed and implemented the frontend for the feedback forum and contact forum.
                                     </li>
                                     <li>
-                                        Write what you did during your position
+                                        Attended weekly standup meetings with the team to discuss progress.
+                                    </li>
+                                    <li>
+                                        Helped refactor the backend to improve authentication
                                     </li>
                                 </ul>
                             </div>
@@ -247,31 +311,55 @@
                     <div class="col-12 col-md-4 work-item-fade-out">
                         <div class="card h-100">
                             <div class="card-body">
-                                <h5 class="m-0 card-title"> Job 5 </h5>
-                                <p class="m-0 text-secondary"> Company </p>
-                                <p class="m-0 text-secondary subtitle"> 1/31/2025 - Present</p>
+                                <h5 class="m-0 card-title"> Software Engineer Intern </h5>
+                                <p class="m-0 text-secondary"> Fresumes </p>
+                                <p class="m-0 text-secondary subtitle"> August 2024 - December 2024</p>
+                                <p class="project-item-subtitle mb-0"> Technologies: React Native, ExpressJS, Docker, MongoDB, DigitalOcean</p>
 
                                 <ul class="py-2 ps-4">
                                     <li>
-                                        Write what you did during your position
+                                        Assisted in implementing features that helped improve user experience, such as updating the service
+                                        to allow for multipage resumes and uploading more than one resumes at a time.
                                     </li>
                                     <li>
-                                        Write what you did during your position
+                                        Helped set up the development server and supported in the migration of the production server from a microservice
+                                        architecture to a monolithic architecture.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 work-item-fade-out">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="m-0 card-title"> Web Development Intern </h5>
+                                <p class="m-0 text-secondary"> TygaSmart Inc </p>
+                                <p class="m-0 text-secondary subtitle"> March 2022 - December 2022</p>
+                                <p class="project-item-subtitle mb-0"> Technologies: Odoo, Justinmind</p>
+
+                                <ul class="py-2 ps-4">
+                                    <li>
+                                        Participated in weekly meetings with stakeholders to gather feedback on wireframe
                                     </li>
                                     <li>
-                                        Write what you did during your position
+                                        Created and launched a new website, <a href="https://tygasmart.odoo.com/" target="_blank"> tygasmart.com </a>
                                     </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 work-item-fade-out">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="m-0 card-title"> Coding Instructor </h5>
+                                <p class="m-0 text-secondary"> AI Plus Learning and Education </p>
+                                <p class="m-0 text-secondary subtitle"> October 2021 - August 2022 </p>
+                                <p class="project-item-subtitle mb-0"> Technologies: Scratch, Turtle Library</p>
+
+                                <ul class="py-2 ps-4">
                                     <li>
-                                        Write what you did during your position
-                                    </li>
-                                    <li>
-                                        Write what you did during your position
-                                    </li>
-                                    <li>
-                                        Write what you did during your position
-                                    </li>
-                                    <li>
-                                        Write what you did during your position
+                                        Instructed elementary and middle school students in coding, covering basic programming concepts and introducing Scratch,
+                                        an online platform for interactive projects
                                     </li>
                                 </ul>
                             </div>
@@ -290,24 +378,22 @@
                 <div class="col-12 col-lg-6">
                     <p> The following are links to my social media where you can find me on! </p>
                     <div class="d-flex mt-2 gap-1">
-                        <a class="border-1 border belt-icon centered" href="#" target="_blank"> <i class="bi bi-linkedin d-flex align-items-center"></i> </a>
-                        <a class="border-1 border belt-icon centered" href="#" target="_blank"> <i class="bi bi-github d-flex align-items-center"></i> </a>
-                        <a class="border-1 border belt-icon centered" href="#" target="_blank"> <i class="bi bi-facebook d-flex align-items-center"></i> </a>
-                        <a class="border-1 border belt-icon centered" href="#" target="_blank"> <i class="bi bi-instagram d-flex align-items-center"></i> </a>
+                        <a class="border-1 border belt-icon centered" href="http://www.linkedin.com/in/kennytang04" target="_blank"> <i class="bi bi-linkedin d-flex align-items-center"></i> </a>
+                        <a class="border-1 border belt-icon centered" href="http://github.com/k3nnee" target="_blank"> <i class="bi bi-github d-flex align-items-center"></i> </a>
                     </div>
                 </div>
                 <div class="col-12 col-lg-6">
-                    <form>
+                    <form action="https://formspree.io/f/xyzkjjpz" method="POST">
                         <h5>
                             Contact form
                         </h5>
                         <div>
                             <label for="email" class="form-label">Email address</label>
-                            <input type="email" class="form-control" required id="email" placeholder="Enter your own email address">
+                            <input type="email" name="email" class="form-control" required id="email" placeholder="Enter your own email address">
                         </div>
                         <div class="mb-3">
                             <label for="text-area" class="form-label">Enter your message</label>
-                            <textarea class="form-control" required id="text-area" rows="3"></textarea>
+                            <textarea name="text" class="form-control" required id="text-area" rows="3"></textarea>
                         </div>
                         <button type="submit" class="btn-style rounded-2"> Submit </button>
                     </form>
