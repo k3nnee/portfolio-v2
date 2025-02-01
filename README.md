@@ -23,6 +23,15 @@ building a portfolio, allowing you to focus on what truly matters
 This is just a basic template to make the process easier, add colors, change formats, make your website
 pop!
 
+Features:
+- Scroll-to-Top Button: A convenient button located at the bottom right corner of the screen allows users to quickly scroll back to the top of the page.
+
+- Responsive Navbar: The navbar smoothly scrolls to the targeted section of the page, enhancing the navigation experience.
+
+- Project Section Animation: Projects in this section gracefully fade in as they enter the viewport, adding a dynamic touch.
+
+- Experience Section Animation: Experience items load sequentially from left to right, providing an engaging visual flow.
+
 ## Installation
 1. Fork this repository
 2. Run through the HTML files and fill it the blank!
